@@ -1,1 +1,93 @@
+/* CSS Document */
+  * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing:border-box;
+    }
 
+	header h1 {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+		font-size: 32px;
+		font-family:cursive;
+	}
+	
+	
+	
+	article  {
+		float: left;
+		margin: 15px;
+		border: solid black;
+		background-color: rgb(146, 146, 146);
+		width: 30%;
+	}
+
+	
+	
+	.first h4 {
+	    
+	   width:33%;
+	   margin-left:67%;
+	   background-color:rgb(233, 184, 176);
+	   padding: 3px;
+	     
+	}
+
+	.second h4 {
+		
+	    width:33%;
+		margin-left:67%;
+		background-color:rgb(201, 35, 9);
+		padding: 3px;
+		color: white;		
+	}
+
+	.third h4 {
+		
+		width:33%;
+		margin-left:67%;
+		background-color:rgb(222, 224, 107);
+		padding: 3px;
+		
+	}
+
+    h4 {
+		text-align: center;
+		font-size: 20px;
+		font-family: cursive;
+		border-left-style: solid;
+		border-bottom-style: solid;
+;		border-color: black;
+	}
+
+	p{
+		font-size: 15px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-weight: bold;
+		text-align: left;
+		padding: 10px;
+	}
+	
+
+   @media(min-width:768px) and (max-width:991px) {
+	 article{
+		 width: 46%;
+	 }
+	 .three{
+		 width: 96%;;
+	 }
+	  
+  }
+
+  @media(max-width:767px) {
+	article{
+		clear: left;
+		width: 90%;
+		margin: 20px;
+		}
+   
+		.contenedor{
+			height: 700px;
+		}
+ }
